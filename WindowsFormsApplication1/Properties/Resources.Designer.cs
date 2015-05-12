@@ -79,5 +79,86 @@ namespace WindowsFormsApplication1.Properties {
                 return ((byte[])(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ITLLNDLogo {
+            get {
+                object obj = ResourceManager.GetObject("ITLLNDLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+        ///&lt;html style=&quot;height: 100%;&quot;&gt;
+        ///&lt;head&gt;
+        ///&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; &gt;
+        ///&lt;!-- Created using Articulate Storyline 2.3 - http://www.articulate.com  --&gt;
+        ///&lt;!-- version: 2.3.1412.922 --&gt;
+        ///
+        ///&lt;title&gt;Template&lt;/title&gt;
+        ///&lt;style&gt;
+        ///body { margin: 0px; }
+        ///object {outline: none;}
+        ///&lt;/style&gt;
+        ///&lt;script&gt;
+        ///var g_bHtml5Supported = true;
+        ///&lt;/script&gt;
+        ///&lt;!--[if lte IE 9]&gt;&lt;script&gt;g_bHtml5Supported = false;&lt;/script&gt;&lt;![endif]--&gt;
+        ///
+        ///&lt;script type=&quot;text/javascript&quot;&gt;
+        ///
+        ///// Detect min flash  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string story {
+            get {
+                return ResourceManager.GetString("story", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;head&gt;
+        ///	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+        ///	&lt;title&gt;Template&lt;/title&gt;
+        ///	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;/&gt;
+        ///	&lt;meta name=&quot;viewport&quot; id=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui&quot; /&gt;
+        ///	&lt;style&gt;html,body{background:#BBBBBB;}&lt;/style&gt;
+        ///	&lt;link href=&quot;mobile/player.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+        ///	&lt;!--[if lt IE 9]&gt;&lt;script&gt;location.href = location.href.replace(&quot;_html5 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string story_html5 {
+            get {
+                return ResourceManager.GetString("story_html5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;head&gt;
+        ///	&lt;title&gt;&lt;/title&gt;
+        ///&lt;/head&gt;
+        ///&lt;body&gt;
+        ///	&lt;h1&gt;Unsupported Browser&lt;/h1&gt;
+        ///	&lt;p&gt;
+        ///		The HTML5 player does not currently support this web browser.
+        ///	&lt;/p&gt;
+        ///	&lt;p&gt;
+        ///		&lt;a href=&quot;javascript:location.href = location.href.replace(&apos;_unsupported&apos;, &apos;&apos;);&quot;&gt;Click here to view this project&lt;/a&gt; using the standard Flash player.
+        ///	&lt;/p&gt;
+        ///	
+        ///&lt;/body&gt;
+        ///&lt;/html&gt;
+        ///.
+        /// </summary>
+        internal static string story_unsupported {
+            get {
+                return ResourceManager.GetString("story_unsupported", resourceCulture);
+            }
+        }
     }
 }
