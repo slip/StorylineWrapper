@@ -81,6 +81,26 @@ namespace WindowsFormsApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] generic_noResources {
+            get {
+                object obj = ResourceManager.GetObject("generic_noResources", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] generic_wResources {
+            get {
+                object obj = ResourceManager.GetObject("generic_wResources", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap ITLLNDLogo {
@@ -98,7 +118,7 @@ namespace WindowsFormsApplication1.Properties {
         ///&lt;!-- Created using Articulate Storyline 2.3 - http://www.articulate.com  --&gt;
         ///&lt;!-- version: 2.3.1412.922 --&gt;
         ///
-        ///&lt;title&gt;Template&lt;/title&gt;
+        ///&lt;title&gt;CEC2048A&lt;/title&gt;
         ///&lt;style&gt;
         ///body { margin: 0px; }
         ///object {outline: none;}

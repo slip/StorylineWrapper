@@ -5,7 +5,7 @@
 <!-- Created using Articulate Storyline 2.3 - http://www.articulate.com  -->
 <!-- version: 2.3.1412.922 -->
 
-<title>Template</title>
+<title>CEC2048A</title>
 <style>
 body { margin: 0px; }
 object {outline: none;}
@@ -40,12 +40,12 @@ else
 	catch (e) {}
 }
 
-var g_bLMS = false;
+var g_bLMS = true;
 var g_bTinCan = false;
 var g_bAOSupport = false;
 var g_bWarnOnCommitFail = false;
 var g_bUseHtml5 = true && g_bHtml5Supported;
-var g_bUseMobilePlayer = false;
+var g_bUseMobilePlayer = true;
 var g_biOS = (navigator.userAgent.indexOf("AppleWebKit/") > -1 && navigator.userAgent.indexOf("Mobile/") > -1);
 var g_biPad = (navigator.userAgent.indexOf("iPad") > -1);
 var g_bAndroid = (navigator.userAgent.indexOf("Android") > -1);
@@ -105,8 +105,8 @@ var g_strSwfFile = "story.swf";
 var g_nWidth = 1000;
 var g_nHeight = 750;
 var g_strScale = "noscale";	// noscale | show all
-var g_strBrowserSize = "default";	// default, fullscreen, optimal
-var g_strBgColor = "#BBBBBB";
+var g_strBrowserSize = "fullscreen";	// default, fullscreen, optimal
+var g_strBgColor = "BBBBBB";
 var g_strAlign = "middle";
 var g_strQuality = "best";
 var g_bCaptureRC = false;
@@ -126,7 +126,7 @@ if (g_strScale == "show all")
 
 </head>
 
-<body style="height: 100%;" onunload="DoOnClose()" onbeforeunload="DoOnClose()"">
+<body style="height: 100%;" onunload="DoOnClose()" onbeforeunload="DoOnClose()">
 
 <script type="text/javascript">
 
